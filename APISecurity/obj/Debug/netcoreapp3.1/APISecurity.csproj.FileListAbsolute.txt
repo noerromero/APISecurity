@@ -33,5 +33,6 @@ D:\PER\Proyectos\slnAPISecurity\APISecurity\bin\Debug\netcoreapp3.1\Microsoft.Ex
 D:\PER\Proyectos\slnAPISecurity\APISecurity\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 D:\PER\Proyectos\slnAPISecurity\APISecurity\bin\Debug\netcoreapp3.1\Npgsql.dll
 D:\PER\Proyectos\slnAPISecurity\APISecurity\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-D:\PER\Proyectos\slnAPISecurity\APISecurity\obj\Debug\netcoreapp3.1\APISecurity.MvcApplicationPartsAssemblyInfo.cache
 D:\PER\Proyectos\slnAPISecurity\APISecurity\obj\Debug\netcoreapp3.1\APISecurity.csproj.CopyComplete
+D:\PER\Proyectos\slnAPISecurity\APISecurity\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\PER\Proyectos\slnAPISecurity\APISecurity\obj\Debug\netcoreapp3.1\APISecurity.MvcApplicationPartsAssemblyInfo.cache
