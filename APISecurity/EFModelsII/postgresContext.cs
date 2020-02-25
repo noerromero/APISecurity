@@ -1,6 +1,5 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace APISecurity.EFModelsII
 {
@@ -13,6 +12,7 @@ namespace APISecurity.EFModelsII
         public postgresContext(DbContextOptions<postgresContext> options)
             : base(options)
         {
+
         }
 
         public virtual DbSet<Aplication> Aplication { get; set; }
@@ -20,14 +20,21 @@ namespace APISecurity.EFModelsII
         public virtual DbSet<User> User { get; set; }
         public virtual DbSet<User1> User1 { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseNpgsql("Server=dev-bd.c4eg064xqfsk.sa-east-1.rds.amazonaws.com;Port=5432;Database=postgres;User ID=sa;Password=Agosto2019$;");
-            }
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseNpgsql("Server=dev-bd.c4eg064xqfsk.sa-east-1.rds.amazonaws.com;Port=5432;Database=postgres;User ID=sa;Password=Agosto2019$;")
+        //       .EnableSensitiveDataLogging(true)
+        //       .UseLoggerFactory(MyLoggerFactory);
+
+        //    base.OnConfiguring(optionsBuilder);
+        //}
+
+        //public static readonly ILoggerFactory MyLoggerFactory = LoggerFactory.Create(builder =>
+        //{
+        //    builder.AddFilter((category, level) =>
+        //        category == DbLoggerCategory.Database.Command.Name && level == LogLevel.Information)
+        //        .AddConsole();
+        //});
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

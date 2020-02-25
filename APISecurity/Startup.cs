@@ -2,11 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using APISecurity.EFModelsII;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using APISecurity.Services;
 
 namespace APISecurity
 {
@@ -18,6 +21,11 @@ namespace APISecurity
         {
 
             services.AddControllers();
+            services.AddDbContext<postgresContext>(options => {
+                options.UseNpgsql(@"Server=dev-bd.c4eg064xqfsk.sa-east-1.rds.amazonaws.com;Port=5432;Database=postgres;User ID=sa;Password=Agosto2019$;");
+            });
+            services.AddScoped<IOrganizationRepository, OrganizationRepository>();
+
 
         }
 
