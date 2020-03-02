@@ -1640,9 +1640,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\noeromero\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Noe\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1650,15 +1649,14 @@
       "projectUniqueName": "D:\\PER\\Proyectos\\APISecurity\\APISecurity\\APISecurity.csproj",
       "projectName": "APISecurity",
       "projectPath": "D:\\PER\\Proyectos\\APISecurity\\APISecurity\\APISecurity.csproj",
-      "packagesPath": "C:\\Users\\noeromero\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Noe\\.nuget\\packages\\",
       "outputPath": "D:\\PER\\Proyectos\\APISecurity\\APISecurity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\noeromero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Noe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

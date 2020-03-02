@@ -10,15 +10,14 @@
         "projectUniqueName": "D:\\PER\\Proyectos\\APISecurity\\APISecurity\\APISecurity.csproj",
         "projectName": "APISecurity",
         "projectPath": "D:\\PER\\Proyectos\\APISecurity\\APISecurity\\APISecurity.csproj",
-        "packagesPath": "C:\\Users\\noeromero\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Noe\\.nuget\\packages\\",
         "outputPath": "D:\\PER\\Proyectos\\APISecurity\\APISecurity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\noeromero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Noe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -54,10 +53,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
-              "target": "Package",
-              "version": "[2.0.3, )"
             },
             "Microsoft.NETCore.App": {
               "target": "Package",
